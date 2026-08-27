@@ -5,6 +5,7 @@ public class atv6 {
         Scanner ler = new Scanner(System.in);
         int op;
         do {
+
             System.out.println("====MENU====");
             System.out.println("1- calcular tabuada");
             System.out.println("2- contagem regressiva");
@@ -25,19 +26,19 @@ public class atv6 {
                         num = ler.nextInt();
                         for (int i = num; i >= 0; i--){
                             System.out.println(i);
-
+                            
                         }
                         break;
-                    
-                    
-                case 0: 
-                        System.out.println("Saindo...")
-                    break;
+                        
+                        
+                        case 0: 
+                        System.out.println("Saindo...");
+                        break;
             }
-
+            
         }
         
-        }
+        
         ler.close();
     }
 }
